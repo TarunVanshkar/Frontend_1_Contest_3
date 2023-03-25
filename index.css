@@ -1,0 +1,24 @@
+.nav-flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: auto 1vw; */
+    padding: 1vw 1vw;
+    /* border: 2px solid red; */
+    font-size: 18px;
+}
+
+.right-nav-bar .search{
+    display: flex;
+    gap: 1vw;
+}
+
+.table-container tbody a{
+    margin: 10px;
+}
+
+@media(max-width:400px){
+    .right-nav-bar{
+        content-visibility: hidden;
+    }
+}
